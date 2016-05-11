@@ -1,0 +1,8 @@
+hash,0123456789abcdef0123456789abcdef01234567
+title,execution.dateTime,station.name,program.name,program.revision,device.serialNumber,WIFI_11AC_INSERT_DUT:DUT_VERSION,WIFI_11AC_INSERT_DUT:ERROR_MESSAGE,WIFI_11AC_INSERT_DUT:VDUT_VERSION,WIFI_11AC_INITIALIZE_DUT:DUT_DRIVER_INFO,WIFI_11AC_INITIALIZE_DUT:DUT_NAME,WIFI_11AC_INITIALIZE_DUT:ERROR_MESSAGE,WIFI_11AC_READ_MAC_ADDRESS:ERROR_MESSAGE,WIFI_11AC_READ_MAC_ADDRESS:MAC_ADDRESS,WIFI_11AC_READ_EEPROM:EEPROM_RETURN,WIFI_11AC_READ_EEPROM:ERROR_MESSAGE,WIFI_11AC_READ_EEPROM:EEPROM_RETURN,WIFI_11AC_READ_EEPROM:ERROR_MESSAGE,WIFI_11AC_REMOVE_DUT:ERROR_MESSAGE
+usl,,,,,,,,,,,,,,,,,,
+lsl,,,,,,,,,,,,,,,,,,
+unit,,,,,,,,,,,,,,,,,,
+optional,,,,,,,,,,,,,,,,,,
+measurement_id,,,,,,1,1,1,2,2,2,3,3,4,4,5,5,6
+19154,2015-11-26 13:33:22,,IQfactPlus,,,3.2.0.Eng19_Lock,[Info] Function completed.,3.0.0 (2012-8-24),NVM Type:E-fuse    0 Free Block,"No Return, Unknown Dut Name.;",[Info] Function completed.,[Info] Function completed., 0x000000000000,"Read from EEPROM offset = 0x01c2, Value = 0x0e8d",[Info] Function completed.,"Read from EEPROM offset = 0x01c4, Value = 0x7632",[Info] Function completed.,[Info] Function completed.

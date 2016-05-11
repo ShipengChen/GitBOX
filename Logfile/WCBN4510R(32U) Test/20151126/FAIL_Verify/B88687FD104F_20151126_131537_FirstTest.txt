@@ -1,0 +1,67 @@
+================================= Run 1 ===================================
+
+Summary
+1.INSERT_DUT _________________________________________________________________
+RELOAD_DUT_DLL                 : 1 
+CONNECTION_STRING              : USB 
+DUT_DLL_FILENAME               : MTK_MT761X.dll 
+EEPROM_FILENAME                : eeprom.bin 
+OPTION_STRING                  : NET0 
+Test Time = 0.169 s
+DUT_VERSION              :3.2.0.Eng19_Lock               
+ERROR_MESSAGE            :[Info] Function completed.
+      
+VDUT_VERSION             :3.0.0 (2012-8-24)              
+2.INITIALIZE_DUT _____________________________________________________________
+Test Time = 0.844 s
+DUT_DRIVER_INFO          :NVM Type:E-fuse    0 Free Block      
+DUT_NAME                 :No Return, Unknown Dut Name.
+      
+ERROR_MESSAGE            :[Info] Function completed.
+      
+3.READ_MAC_ADDRESS ___________________________________________________________
+Test Time = 0.005 s
+ERROR_MESSAGE            :[Info] Function completed.
+      
+MAC_ADDRESS              : 0x000000000000                
+4.READ_EEPROM 0x1C2 __________________________________________________________
+LENGTH                         : 4 
+ADDRESS                        : 0x1C2 
+FILE                           :  
+Test Time = 0.005 s
+EEPROM_RETURN            :Read from EEPROM offset = 0x01c2, Value = 0x0e8d      
+ERROR_MESSAGE            :[Info] Function completed.
+      
+5.READ_EEPROM 0x1C4 __________________________________________________________
+LENGTH                         : 4 
+ADDRESS                        : 0x1C4 
+FILE                           :  
+Test Time = 0.005 s
+EEPROM_RETURN            :Read from EEPROM offset = 0x01c4, Value = 0x7632      
+ERROR_MESSAGE            :[Info] Function completed.
+      
+6.REMOVE_DUT _________________________________________________________________
+Test Time = 0.009 s
+ERROR_MESSAGE            :[Info] Function completed.
+      
+--------------------------------------------------------------------
+                         *************
+                         *  P A S S  *
+                         *************
+1.INSERT_DUT                                    :0.169 s                     
+2.INITIALIZE_DUT                                :0.844 s                     
+3.READ_MAC_ADDRESS                              :0.005 s                     
+4.READ_EEPROM 0x1C2                             :0.005 s                     
+5.READ_EEPROM 0x1C4                             :0.005 s                     
+6.REMOVE_DUT                                    :0.009 s                     
+Total Run(s)                :1
+Passed Run(s)               :1
+Failed Run(s) on Limits     :0
+Failed Run(s) on Errors     :0
+In This Run:
+    Fail(s) on Limits       :0
+    Fail(s) on Errors       :0
+    Flow Run Time           :1.138 s
+    Test Function Time      :1.036 s
+--------------------------------------------------------------------
+
